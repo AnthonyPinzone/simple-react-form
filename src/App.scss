@@ -1,7 +1,7 @@
 .simple-form {
-    background-color: hsl(234, 20, 30);
+    background-color: hsl(234%, 20%, 30%);
     border-radius: 2rem;
-    color: hsl(52, 50, 91);
+    color: hsl(52%, 50%, 91%);
     padding: 2rem;
     max-width: 800px;
     width: 100%;
@@ -25,7 +25,7 @@
     }
 
     &__input {
-        background-color: hsl(234, 20, 20);
+        background-color: hsl(234%, 20%, 20%);
         border: 0;
         font-size: 1.25rem;
         font-weight: 500;
@@ -40,22 +40,22 @@
     }
 
     &__button {
-        background-color: hsl(13, 68, 63);
+        background-color: hsl(13%, 68%, 63%);
         border-width: 0;
         font-weight: 600;
         text-transform: uppercase;
 
         &:hover,
         &:focus-visible {
-            background-color: hsl(13, 68, 58);
+            background-color: hsl(13%, 68%, 58%);
             color: white;
         }
 
         &--outline {
             background-color: transparent;
-            border-color: hsl(13, 68, 63);
+            border-color: hsl(13%, 68%, 63%);
             border-width: 3px;
-            color: hsl(13, 68, 63);
+            color: hsl(13%, 68%, 63%);
         }
     }
 }
